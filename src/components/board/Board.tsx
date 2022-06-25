@@ -1,4 +1,5 @@
 import { Square } from '../square/Square'
+import './board.css'
 
 export const Board = (): JSX.Element => {
 	let squares: JSX.Element[] = []
@@ -8,7 +9,7 @@ export const Board = (): JSX.Element => {
 		}
 	}
 	return (
-		<div>
+		<div className='board'>
 			{squares.map(square => {
 				return square
 			})}

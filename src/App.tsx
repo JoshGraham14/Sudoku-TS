@@ -6,7 +6,10 @@ const App = () => {
 			<header>
 				<h1>Sudoku Solver</h1>
 			</header>
-			<Board />
+			<form className='container'>
+				<Board />
+				<button>Solve</button>
+			</form>
 		</div>
 	)
 }
